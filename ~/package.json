@@ -1,0 +1,19 @@
+
+
+{
+  "name": "winoscript-modular",
+  "version": "1.0.0",
+  "description": "WinoScript Modular ProbSystem with Persistent Memory",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "start": "node app.js",
+    "core": "node -e \"const WinoCore = require('./wino-core'); new WinoCore();\"",
+    "clear": "node -e \"const WinoCore = require('./wino-core'); const w = new WinoCore(); w.clearMemory();\""
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  },
+  "keywords": ["ai", "probabilistic", "programming", "intelligent", "binance"],
+  "author": "Brahim BIDI"
+}
